@@ -15,6 +15,7 @@
 		AF015C2A1A5DB36E000FE0EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF015C291A5DB36E000FE0EB /* Images.xcassets */; };
 		AF015C2D1A5DB36E000FE0EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF015C2B1A5DB36E000FE0EB /* LaunchScreen.xib */; };
 		AF015C391A5DB36E000FE0EB /* MDTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF015C381A5DB36E000FE0EB /* MDTestTests.m */; };
+		AF015C441A5E3648000FE0EB /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = AF015C431A5E3648000FE0EB /* Song.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		AF015C321A5DB36E000FE0EB /* MDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF015C371A5DB36E000FE0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF015C381A5DB36E000FE0EB /* MDTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTestTests.m; sourceTree = "<group>"; };
+		AF015C421A5E3648000FE0EB /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		AF015C431A5E3648000FE0EB /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				AF015C211A5DB36E000FE0EB /* MasterViewController.m */,
 				AF015C231A5DB36E000FE0EB /* DetailViewController.h */,
 				AF015C241A5DB36E000FE0EB /* DetailViewController.m */,
+				AF015C421A5E3648000FE0EB /* Song.h */,
+				AF015C431A5E3648000FE0EB /* Song.m */,
 				AF015C261A5DB36E000FE0EB /* Main.storyboard */,
 				AF015C291A5DB36E000FE0EB /* Images.xcassets */,
 				AF015C2B1A5DB36E000FE0EB /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF015C441A5E3648000FE0EB /* Song.m in Sources */,
 				AF015C1F1A5DB36E000FE0EB /* AppDelegate.m in Sources */,
 				AF015C221A5DB36E000FE0EB /* MasterViewController.m in Sources */,
 				AF015C1C1A5DB36E000FE0EB /* main.m in Sources */,
